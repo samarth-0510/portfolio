@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Dobaria Samarth</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white text-gray-800 font-sans scroll-smooth">
+
+    <!-- Navbar -->
+    <header class="bg-indigo-800 text-white sticky top-0 z-50 shadow-lg">
+      <nav class="container mx-auto flex justify-between items-center p-4">
+        <h1 class="text-2xl font-extrabold tracking-wide">Dobaria Samarth</h1>
+        <ul class="flex space-x-6 font-medium">
+          <li><a href="home.html" class="hover:text-yellow-300 transition">Home</a></li>
+          <li><a href="about.html" class="hover:text-yellow-300 transition">About</a></li>
+          <li><a href="projects.html" class="hover:text-yellow-300 transition">Projects</a></li>
+          <li><a href="contact.html" class="hover:text-yellow-300 transition">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="p-10">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-3xl font-bold text-center text-indigo-800 mb-6">Contact Me</h2>
+        <form class="space-y-5">
+          <input type="text" placeholder="Your Name" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-indigo-500" required />
+          <input type="email" placeholder="Your Email" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-indigo-500" required />
+          <textarea placeholder="Your Message" class="w-full p-4 border border-gray-300 rounded-lg h-32 focus:outline-indigo-500" required></textarea>
+          <button type="submit" class="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition shadow">Send Message</button>
+        </form>
+        <div class="mt-8 text-center">
+          <p class="text-gray-700">Or connect with me on:</p>
+          <div class="flex justify-center space-x-4 mt-3">
+            <a href="#"><img src="github.jpg" class="w-6 h-6" alt="GitHub" /></a>
+            <a href="#"><img src="linkedin.jpg" class="w-6 h-6" alt="LinkedIn" /></a>
+            <p class="text-indigo-800 font-medium">dobariyasamarth0@gmail.com</p>
+            <p class="text-indigo-800 font-medium">📞 9408674985</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-indigo-800 text-white text-center py-4 mt-10">
+      <p>&copy; 2025 Dobaria Samarth. All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>
